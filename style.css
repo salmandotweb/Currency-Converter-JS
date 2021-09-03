@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+:root{
+    --white:#fff;
+    --black:#000;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End of Common Styles */
+
+/* Converter */
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    padding: 5rem 10rem;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.navbar .logo h1{
+    font-size: 3rem;
+    color: #121922;
+}
+.date{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.converter{
+    background-color: crimson;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+}
+.currency-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.currency{
+    height: 5rem;
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #121922;
+    padding: 1rem;
+    cursor: pointer;
+}
+.input{
+    height: 10rem;
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #aaa;
+    padding: 1rem;
+}
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.shuffle{
+    background-color: #fff;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.shuffle:active{
+    transform: scale(.98);
+}
+.shuffle i{
+    font-size: 2rem;
+    color: #121922;
+    color: dodgerblue;
+}
